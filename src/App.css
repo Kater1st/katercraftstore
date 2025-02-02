@@ -1,0 +1,194 @@
+#head-logo
+{
+    width:100px; 
+    margin-left: 5px;
+}
+
+#login-button {
+    color: red;
+}
+
+body{
+  background: rgba(32, 33, 36, 0.1);
+}
+#about-section {
+    background: rgba(32, 33, 36, 0.1);
+    position: relative;
+}
+
+.blockabout {
+    padding: 20px;
+    background: rgba(32, 33, 36, 0.1);
+}
+
+.blockabout-inner {
+    padding: 30px;
+    border: 1px solid rgba(32, 33, 36, 0.1);
+}
+
+.sosmed-horizontal a i {
+    border: 1px solid #070707;
+    border-radius: 50%;
+    color: #070707;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.rey-btn {
+    border: 2px solid #070707;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.item-icon  {
+    width: 100px;
+}
+
+.row-g-4 {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 20px 30px;
+
+}
+
+.sw-caption {
+    margin: 30px;
+}
+
+body {
+    background-color: #19272b;
+    color: white;
+}
+
+.x-header-container{
+    color: white;
+    margin: 20px 30px;
+} 
+
+.nav-link {
+    color: white;
+}
+
+.text-center-text-body-secondary {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+
+.row g-4 {
+    margin-top: 90px;
+}
+
+.services {
+    margin: 20px 30px;
+}
+
+.table-responsive{
+    background-color: #19272b;
+    color: white;
+    width: 1270px;
+    justify-content: center;
+    margin: 60px;
+}
+
+.table-text-center{
+    color: white;
+    width: 70px;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    
+    padding: 15px;
+    border-radius: 4px;
+    border: 10px;
+    border-color: aqua;
+}
+
+
+.my_card {
+    background-color: #19272b;
+    border: white;
+    color: white;
+}
+
+
+.img_tab {
+    border-radius: 8px;
+}
+
+hr {
+    margin: 20px;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+body {
+    transition: background 0.3s, color 0.3s;
+  }
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+.btn-main {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+.btn-main:hover {
+    background: #0056b3;
+  }
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.contact-form{
+    margin-bottom: 238px;
+}
+
+.item-icon {
+  width: 50px;  /* Adjust the width as needed */
+  height: 50px; /* Keep height in proportion or set to auto */
+  object-fit: contain;
+}

@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(25, 39, 43);
+  color:white;
+}
+
+.item-icon {
+  width: 150px; 
+  height: 100px;
+  object-fit: contain;
+}
+
+h2{
+  color: white;
+}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .bg-dark-2 {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .btn-secondary {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+body.dark-mode .btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+body.dark-mode .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+body.dark-mode .nav-link {
+  color: #ffffff !important;
+}
+
+body.dark-mode .nav-link:hover {
+  color: #007bff !important;
+}
